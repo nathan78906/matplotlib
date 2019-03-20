@@ -53,3 +53,8 @@ def test_patch_alpha_coloring(fig_test, fig_ref):
                                       facecolor=(1, 0, 0, 0.5),
                                       edgecolor=(0, 0, 1, 0.75))
     ax.add_collection(col)
+
+
+@pytest.mark.backend('cairo')
+def test_lol():
+    assert False
