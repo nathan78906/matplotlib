@@ -381,7 +381,7 @@ def test_arrow_simple():
 
 def test_arrow_empty():
     _, ax = plt.subplots()
-    # Create an empty FancyArrow
+    # Create an empty arrow
     ax.arrow(0, 0, 0, 0, head_length=0)
 
 
